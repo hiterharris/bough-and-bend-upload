@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form .input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin: 1%;
+}
+
+.container form input {
+    width: 20%;
+    height: 40px;
+}
+
+.container form button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
